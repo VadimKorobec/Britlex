@@ -2,14 +2,29 @@
   /* fonts */
   --main-font: 'Poppins', sans-serif;
   --secondary-font: ;
+
   /* text colors */
+  --main-txt-cl: #8f95a5;
+  --acent-txt-cl: #263238;
 
   /* bg colors */
+  --light-bg-cl: #ffffff;
+  --dark-bg-cl: #f5f5f5;
 
   /* onhers */
 }
 
 body {
   font-family: var(--main-font);
-  color: #8f95a5;
+  color: var(--main-txt-cl);
+}
+
+/* reset styles */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }
