@@ -1,4 +1,15 @@
+:root {
+  /* fonts */
+  --main-font: 'Poppins', sans-serif;
+  --secondary-font: ;
+  /* text colors */
+
+  /* bg colors */
+
+  /* onhers */
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--main-font);
   color: #8f95a5;
 }
