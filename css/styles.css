@@ -23,8 +23,11 @@ body {
 
 .link {
   text-decoration: none;
+  color: currentColor;
 }
 
 .list {
   list-style: none;
 }
+
+/* Header */
