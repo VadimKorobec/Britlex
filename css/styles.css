@@ -31,3 +31,19 @@ body {
 }
 
 /* Header */
+
+.nav-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  color: var(--acent-txt-cl);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--main-txt-cl);
+}
+
+.nav-link-current {
+  color: var(--main-txt-cl);
+}
