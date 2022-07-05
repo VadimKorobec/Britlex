@@ -107,7 +107,114 @@ body {
 
 /* Section Hero */
 
+.hero-titel {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: calc(80 / 64);
+  color: var(--titel-cl);
+}
+
+.hero-text {
+  font-size: 24px;
+  line-height: calc(36 / 24);
+}
+
 .hero-btn {
   width: 426px;
   height: 100px;
+}
+
+/* Section Skills */
+
+.skills-titel {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: calc(72 / 48);
+  color: var(--titel-cl);
+}
+
+.skills-subtitel {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: calc(45 / 30);
+  color: var(--acent-txt-cl);
+}
+
+.skill-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
+/* Section About */
+
+.about-titel {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: calc(72 / 48) 72px;
+  color: var(--titel-cl);
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: calc(36 / 20);
+}
+
+/* Section Pricing */
+
+.pricing-titel {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: calc(72 / 48);
+  color: var(--titel-cl);
+}
+
+.pricing-subtitel {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: calc(48 / 30);
+  text-transform: capitalize;
+  color: var(--acent-txt-cl);
+}
+
+.price-text {
+  font-size: 20px;
+  line-height: calc(30 / 20);
+}
+
+/* Section Contact */
+
+.contact-titel {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: calc(72 / 48);
+  color: var(--titel-cl);
+}
+
+.contact-text {
+  font-size: 20px;
+  line-height: calc(30 / 20);
+}
+
+.imale {
+  width: 425px;
+  height: 70px;
+  border: 1px solid #8f95a5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--main-txt-cl);
+}
+
+.contact-btn {
+  width: 312px;
+  height: 70px;
+}
+
+/* Footer section */
+
+.footer-text {
+  font-size: 24px;
+  line-height: calc(36 / 24);
+  letter-spacing: 0.02em;
 }
