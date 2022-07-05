@@ -108,7 +108,6 @@ body {
 /* Section Hero */
 
 .hero-titel {
-  font-weight: 600;
   font-size: 64px;
   line-height: calc(80 / 64);
   color: var(--titel-cl);
@@ -127,14 +126,12 @@ body {
 /* Section Skills */
 
 .skills-titel {
-  font-weight: 600;
   font-size: 48px;
   line-height: calc(72 / 48);
   color: var(--titel-cl);
 }
 
 .skills-subtitel {
-  font-weight: 600;
   font-size: 30px;
   line-height: calc(45 / 30);
   color: var(--acent-txt-cl);
@@ -148,7 +145,6 @@ body {
 /* Section About */
 
 .about-titel {
-  font-weight: 600;
   font-size: 48px;
   line-height: calc(72 / 48) 72px;
   color: var(--titel-cl);
@@ -162,14 +158,12 @@ body {
 /* Section Pricing */
 
 .pricing-titel {
-  font-weight: 600;
   font-size: 48px;
   line-height: calc(72 / 48);
   color: var(--titel-cl);
 }
 
 .pricing-subtitel {
-  font-weight: 600;
   font-size: 30px;
   line-height: calc(48 / 30);
   text-transform: capitalize;
@@ -184,7 +178,6 @@ body {
 /* Section Contact */
 
 .contact-titel {
-  font-weight: 600;
   font-size: 48px;
   line-height: calc(72 / 48);
   color: var(--titel-cl);
@@ -213,8 +206,13 @@ body {
 
 /* Footer section */
 
-.footer-text {
+.footer-item {
   font-size: 24px;
   line-height: calc(36 / 24);
   letter-spacing: 0.02em;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--acent-txt-cl);
 }
