@@ -6,6 +6,7 @@
   /* text colors */
   --main-txt-cl: #8f95a5;
   --acent-txt-cl: #263238;
+  --titel-cl: #000000;
 
   /* bg colors */
   --light-bg-cl: #ffffff;
@@ -30,13 +31,38 @@ body {
   list-style: none;
 }
 
+/* base styles */
+
+.btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  color: var(--light-bg-cl);
+  background-color: var(--acent-txt-cl);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 /* Header */
+
+.nav-logo {
+  font-size: 36px;
+  line-height: calc(54 / 36);
+  color: var(--main-txt-cl);
+}
+
+.acent {
+  color: var(--titel-cl);
+}
 
 .nav-link {
   font-weight: 500;
   font-size: 20px;
   line-height: calc(30 / 20);
   color: var(--acent-txt-cl);
+  cursor: pointer;
 }
 
 .nav-link:hover,
@@ -46,4 +72,24 @@ body {
 
 .nav-link-current {
   color: var(--main-txt-cl);
+}
+
+.nav-btn {
+  width: 312px;
+  height: 70px;
+  color: var(--titel-cl);
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 2px solid #263238;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  letter-spacing: 0.03em;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  background-color: var(--dark-bg-cl);
 }
