@@ -59,6 +59,11 @@ body {
   outline: 1px solid tomato;
 }
 
+.section {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
 .btn {
   width: 218px;
   height: 60px;
@@ -83,7 +88,14 @@ body {
 
 /* Header */
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .nav-logo {
+  margin-right: 236px;
+
   font-size: 36px;
   line-height: calc(54 / 36);
   color: var(--main-txt-cl);
@@ -93,12 +105,20 @@ body {
   color: var(--titel-cl);
 }
 
+.nav {
+  margin-right: auto;
+}
+
 .nav-list {
   display: flex;
   gap: 50px;
 }
 
 .nav-link {
+  display: block;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: calc(30 / 20);
@@ -142,6 +162,10 @@ body {
   font-size: 64px;
   line-height: calc(80 / 64);
   color: var(--titel-cl);
+}
+
+.hiro-titel-wrap {
+  display: flex;
 }
 
 .hero-text {
