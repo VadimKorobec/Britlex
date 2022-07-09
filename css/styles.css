@@ -136,8 +136,10 @@ body {
 }
 
 .nav-btn {
-  width: 312px;
-  height: 70px;
+  max-width: 350px;
+  min-width: 312px;
+  min-height: 70px;
+  padding: 19px 55px;
 
   font-family: inherit;
   font-size: 20px;
@@ -166,6 +168,13 @@ body {
 
 .hiro-titel-wrap {
   display: flex;
+}
+
+.hero-wrraper {
+  display: flex;
+  flex-basis: 540px;
+  flex-wrap: wrap;
+  margin-right: auto;
 }
 
 .hero-text {
