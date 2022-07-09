@@ -41,16 +41,23 @@ a {
   color: currentColor;
 }
 
+/* Reset End */
+
 body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
 }
 
-.list {
-  list-style: none;
-}
+/* Base styles */
 
-/* base styles */
+.container {
+  width: 1378px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 1px solid tomato;
+}
 
 .btn {
   width: 218px;
@@ -84,6 +91,11 @@ body {
 
 .acent {
   color: var(--titel-cl);
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
 }
 
 .nav-link {
