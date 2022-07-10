@@ -166,7 +166,7 @@ body {
   color: var(--titel-cl);
 }
 
-.hiro-titel-wrap {
+.hiro-left {
   display: flex;
 }
 
