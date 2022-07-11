@@ -53,81 +53,119 @@
     </header>
     <main>
       <!--Section Hero-->
-      <section class="hero">
-        <div class="container section">
+      <section class="hero section">
+        <div class="container hero-container">
           <div class="hero-left">
-            <h1 class="hero-titel">Learn Any Foreign Language</h1>
+            <h1 class="hero-titel">Learn Any&nbsp;Foreign Language</h1>
             <p class="hero-text">
               With our teachers who write a program for each student, you will be able to make your
               first sketch after the first lesson.
             </p>
             <button class="hero-btn btn" type="button">Get started</button>
           </div>
-          <img hidden src="./images/hero/bulb-icon.png" alt="bulb" width="85" height="85" />
+          <img
+            class="hero-icon visually-hidden"
+            src="./images/hero/bulb-icon.png"
+            alt="bulb"
+            width="85"
+            height="85"
+          />
           <div class="hero-right">
-            <img src="./images/hero/learning-languages.png" alt="" width="654" height="510" />
+            <img
+              class="hero-img"
+              src="./images/hero/learning-languages.png"
+              alt=""
+              width="654"
+              height="510"
+            />
           </div>
         </div>
       </section>
       <!--Section Skills-->
-      <section class="skills">
-        <div class="container section">
+      <section class="skills section">
+        <div class="container">
           <h2 class="skills-titel">Skills</h2>
-          <ul class="skills-list list">
-            <li class="skills-item">
-              <img src="./images/skills/skills1.png" alt="two man" width="390" height="390" />
-              <h3 class="skills-subtitel">Speaking</h3>
-              <p class="skill-text">
-                Improve your English skills and confidence. Live classes and interactive lessons
-                online. 20% extra free for a limited time only Learn English online and improve your
-                skills through our high-quality courses and resources – all designed for adult
-                language learners.
-              </p>
-              <button class="skills-btn btn" type="button">Learn more</button>
-            </li>
-            <li class="skills-item">
-              <img src="./images/skills/skills2.png" alt="typewriter" width="390" height="264" />
-              <h3 class="skills-subtitel">Writing</h3>
-              <p class="skill-text">
-                One of the most important and extensive areas of natural science, the science that
-                studies substances, also their composition
-              </p>
-              <button class="skills-btn btn" type="button">Learn more</button>
-            </li>
-            <li class="skills-item">
-              <img
-                src="./images/skills/skills3.png"
-                alt="House bookshelves"
-                width="390"
-                height="264"
-              />
-              <h3 class="skills-subtitel">Reading</h3>
-              <p class="skill-text">
-                Perception and response actions of the user resulting from the use and/or upcoming
-                use of the product, system or service
-              </p>
-              <button class="skills-btn btn" type="button">Learn more</button>
-            </li>
-            <li class="skills-item">
-              <img
-                src="./images/skills/skills4.png"
-                alt="Podcast audience"
-                width="408"
-                height="274"
-              />
-              <h3 class="skills-subtitel">Listening</h3>
-              <p class="skill-text">
-                Here you can find activities to practise your listening skills. Listening will help
-                you to improve your understanding
-              </p>
-              <button class="skills-btn btn" type="button">Learn more</button>
-            </li>
-          </ul>
+          <div class="skills-container">
+            <ul class="skills-list list">
+              <li class="skills-item">
+                <div class="speakeng-wrap">
+                  <img
+                    class="skills-img"
+                    src="./images/skills/skills1.png"
+                    alt="two man"
+                    width="390"
+                    height="390"
+                  />
+                  <h3 class="skills-subtitel">Speaking</h3>
+                  <p class="skill-text">
+                    Improve your English skills and confidence. Live classes and interactive lessons
+                    online. 20% extra free for a limited time only Learn English online and improve
+                    your skills through our high-quality courses and resources – all designed for
+                    adult language learners.
+                  </p>
+                  <button class="skills-btn btn" type="button">Learn more</button>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="sills-wrap">
+                  <img
+                    class="skills-img"
+                    src="./images/skills/skills2.png"
+                    alt="typewriter"
+                    width="390"
+                    height="264"
+                  />
+                  <h3 class="skills-subtitel">Writing</h3>
+                  <p class="skill-text writing-text">
+                    One of the most important and extensive areas of natural science, the science
+                    that studies substances, also their composition
+                  </p>
+                  <button class="skills-btn btn" type="button">Learn more</button>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="sills-wrap">
+                  <img
+                    class="skills-img"
+                    src="./images/skills/skills3.png"
+                    alt="House bookshelves"
+                    width="390"
+                    height="264"
+                  />
+                  <h3 class="skills-subtitel">Reading</h3>
+                  <p class="skill-text reading-text">
+                    Perception and response actions of the user resulting from the use and/or
+                    upcoming use of the product, system or service
+                  </p>
+                  <button class="skills-btn btn" type="button">Learn more</button>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="listening-wrap">
+                  <img
+                    class="skills-img"
+                    src="./images/skills/skills4.png"
+                    alt="Podcast audience"
+                    width="408"
+                    height="274"
+                  />
+                  <div class="listening-left">
+                    <h3 class="skills-subtitel">Listening</h3>
+                    <p class="skill-text">
+                      Here you can find activities to practise your listening skills. Listening will
+                      help you to improve your understanding
+                    </p>
+                    <button class="skills-btn btn" type="button">Learn more</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <!--Section About -->
-      <section class="about">
-        <div class="container section">
+      <section class="about section">
+        <div class="container">
           <h2 class="about-titel">About Us</h2>
           <p class="about-text">
             The model offers a framework for discussing problems related to the user's experience,
@@ -158,8 +196,8 @@
         </div>
       </section>
       <!--Section Pricing-->
-      <section class="pricing">
-        <div class="container section">
+      <section class="pricing section">
+        <div class="container">
           <h2 class="pricing-titel">Pricing</h2>
           <ul class="pricing-list list">
             <li class="pricing-item">
@@ -191,8 +229,8 @@
         </div>
       </section>
       <!--Section Contact-->
-      <section class="contact">
-        <div class="container section">
+      <section class="contact section">
+        <div class="container">
           <img src="./images/contact/Image01.png" alt="running child" width="425" height="430" />
           <h2 class="contact-titel">Contact Us</h2>
           <p class="contact-text">
