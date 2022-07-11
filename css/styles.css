@@ -88,6 +88,11 @@ body {
 
 /* Header */
 
+.header {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -116,8 +121,8 @@ body {
 
 .nav-link {
   display: block;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   font-weight: 500;
   font-size: 20px;
