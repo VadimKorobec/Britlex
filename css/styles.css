@@ -165,14 +165,25 @@ body {
 
 /* Section Hero */
 
+.hero {
+  padding-top: 0;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .hero-titel {
+  margin-bottom: 40px;
+
   font-size: 64px;
   line-height: calc(80 / 64);
   color: var(--titel-cl);
 }
 
-.hiro-left {
-  display: flex;
+.hero-left {
+  width: 540px;
 }
 
 .hero-wrraper {
@@ -183,30 +194,109 @@ body {
 }
 
 .hero-text {
+  margin-bottom: 60px;
+
   font-size: 24px;
   line-height: calc(36 / 24);
 }
 
 .hero-btn {
-  width: 426px;
-  height: 100px;
+  min-width: 426px;
+  min-height: 100px;
+  padding: 23px 64px;
+
+  font-size: 36px;
+  line-height: 54px;
 }
 
 /* Section Skills */
 
+.skills {
+  padding-top: 0;
+}
+
 .skills-titel {
+  margin-bottom: 60px;
+
   font-size: 48px;
   line-height: calc(72 / 48);
   color: var(--titel-cl);
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  height: 1080px;
+}
+
+.skills-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.speakeng-wrap {
+  width: 426px;
+  padding-top: 32px;
+  padding-bottom: 154px;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  background-color: var(--dark-bg-cl);
+  border-radius: 10px;
+}
+
+.skills-img :not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.sills-wrap {
+  width: 426px;
+  padding: 32px 18px;
+
+  background-color: var(--dark-bg-cl);
+  border-radius: 10px;
+}
+
+.writing-text {
+  width: 340px;
+}
+
+.reading-text {
+  width: 359px;
+}
+
+.listening-wrap {
+  display: flex;
+  padding-top: 28px;
+  padding-bottom: 36px;
+  padding-left: 18px;
+  padding-right: 18px;
+  width: 882px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 456px;
+  margin-bottom: 30px;
+
+  background-color: var(--dark-bg-cl);
+  border-radius: 10px;
+}
+
+.listening-left {
+  width: 324px;
 }
 
 .skills-subtitel {
+  margin-bottom: 20px;
+
   font-size: 30px;
   line-height: calc(45 / 30);
   color: var(--acent-txt-cl);
 }
 
 .skill-text {
+  margin-bottom: 30px;
+
   font-size: 16px;
   line-height: calc(24 / 16);
 }
@@ -284,4 +374,17 @@ body {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--acent-txt-cl);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
