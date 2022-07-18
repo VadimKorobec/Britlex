@@ -184,7 +184,7 @@ body {
 
 .hero-wrap {
   position: absolute;
-  left: 440px;
+  left: 420px;
   top: 89px;
 }
 
@@ -205,6 +205,7 @@ body {
 
   font-size: 24px;
   line-height: calc(36 / 24);
+  text-shadow: 1px 1px 1px #000000;
 }
 
 .hero-btn {
@@ -222,6 +223,9 @@ body {
   padding-top: 0;
 }
 
+.skills-container {
+  position: relative;
+}
 .skills-titel {
   margin-bottom: 60px;
 
@@ -229,17 +233,6 @@ body {
   line-height: calc(72 / 48);
   color: var(--titel-cl);
   text-align: center;
-}
-
-.skills-container {
-  display: flex;
-  position: relative;
-}
-
-.skills-list {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
 }
 
 .speakeng-wrap {
@@ -254,14 +247,12 @@ body {
   border-radius: 10px;
 }
 
-.skills-img :not(:last-child) {
-  margin-bottom: 24px;
-}
-
-.sills-wrap {
+.writing-wrap {
+  position: absolute;
+  left: 456px;
+  top: 0;
   width: 426px;
-  padding: 32px 18px;
-  margin-bottom: 34px;
+  padding: 28px 18px;
 
   background-color: var(--dark-bg-cl);
   border-radius: 10px;
@@ -269,6 +260,17 @@ body {
 
 .writing-text {
   width: 340px;
+}
+
+.reading-wrap {
+  position: absolute;
+  left: 912px;
+  top: 0;
+  width: 426px;
+  padding: 28px 18px;
+
+  background-color: var(--dark-bg-cl);
+  border-radius: 10px;
 }
 
 .reading-text {
@@ -287,8 +289,6 @@ body {
   width: 882px;
   flex-direction: row-reverse;
   justify-content: space-between;
-
-  margin-bottom: 30px;
 
   background-color: var(--dark-bg-cl);
   border-radius: 10px;
@@ -315,13 +315,37 @@ body {
 
 /* Section About */
 
+.about {
+  padding-top: 0;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-about {
+  display: flex;
+  width: 652px;
+  flex-wrap: wrap;
+}
+
 .about-titel {
+  margin-bottom: 60px;
+
   font-size: 48px;
   line-height: calc(72 / 48) 72px;
   color: var(--titel-cl);
 }
 
+.about-list {
+  display: flex;
+  justify-content: space-between;
+  width: 555px;
+}
+
 .about-text {
+  margin-bottom: 30px;
   font-size: 20px;
   line-height: calc(36 / 20);
 }
