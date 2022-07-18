@@ -183,6 +183,7 @@ body {
 }
 
 .hero-left {
+  position: relative;
   width: 540px;
 }
 
