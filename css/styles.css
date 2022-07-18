@@ -175,7 +175,6 @@ body {
 }
 
 .hero-titel {
-  position: relative;
   margin-bottom: 40px;
 
   font-size: 64px;
@@ -185,10 +184,12 @@ body {
 
 .hero-wrap {
   position: absolute;
-  left: 420px;
+  left: 440px;
+  top: 89px;
 }
 
 .hero-left {
+  position: relative;
   width: 540px;
 }
 
