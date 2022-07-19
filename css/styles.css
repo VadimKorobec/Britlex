@@ -345,24 +345,6 @@ body {
   width: 555px;
 }
 
-.eight-wrap {
-  width: 93px;
-  text-align: center;
-}
-
-.eighteen-wrap {
-  width: 92px;
-}
-
-.six-wrap {
-  width: 108px;
-  text-align: center;
-}
-
-.about-img {
-  background-position: center;
-  margin-bottom: 106px;
-}
 .about-text {
   margin-bottom: 30px;
   font-size: 20px;
@@ -371,13 +353,30 @@ body {
 
 /* Section Pricing */
 
+.pricing {
+  padding-top: 0;
+}
+
 .pricing-titel {
+  margin-bottom: 60px;
+
   font-size: 48px;
   line-height: calc(72 / 48);
   color: var(--titel-cl);
+  text-align: center;
+}
+
+.pricing-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-img {
+  margin-bottom: 31px;
 }
 
 .pricing-subtitel {
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: calc(48 / 30);
   text-transform: capitalize;
@@ -385,6 +384,7 @@ body {
 }
 
 .price-text {
+  width: 426px;
   font-size: 20px;
   line-height: calc(30 / 20);
 }
