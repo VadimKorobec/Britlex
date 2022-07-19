@@ -377,6 +377,7 @@ body {
 
 .pricing-subtitel {
   margin-bottom: 20px;
+
   font-size: 30px;
   line-height: calc(48 / 30);
   text-transform: capitalize;
@@ -384,12 +385,22 @@ body {
 }
 
 .price-text {
+  margin-bottom: 60px;
+
   width: 426px;
   font-size: 20px;
   line-height: calc(30 / 20);
 }
 
+.text-left {
+  margin-bottom: 30px;
+}
+
 /* Section Contact */
+
+.contact {
+  padding-top: 0;
+}
 
 .contact-titel {
   font-size: 48px;
