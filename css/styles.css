@@ -402,6 +402,11 @@ body {
   padding-top: 0;
 }
 
+.contact-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .contact-titel {
   font-size: 48px;
   line-height: calc(72 / 48);
@@ -409,6 +414,7 @@ body {
 }
 
 .contact-text {
+  width: 654px;
   font-size: 20px;
   line-height: calc(30 / 20);
 }
