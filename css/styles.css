@@ -400,20 +400,32 @@ body {
 
 .contact {
   padding-top: 0;
+  padding-bottom: 55px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact-right {
   display: flex;
   flex-wrap: wrap;
+  width: 767px;
+  margin-left: auto;
 }
 
 .contact-titel {
+  margin-bottom: 60px;
+
   font-size: 48px;
   line-height: calc(72 / 48);
   color: var(--titel-cl);
 }
 
 .contact-text {
+  margin-bottom: 30px;
+
   width: 654px;
   font-size: 20px;
   line-height: calc(30 / 20);
@@ -422,6 +434,7 @@ body {
 .imale {
   width: 425px;
   height: 70px;
+
   border: 1px solid #8f95a5;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 10px;
@@ -431,6 +444,7 @@ body {
 }
 
 .contact-btn {
+  margin-left: 30px;
   width: 312px;
   height: 70px;
 }
