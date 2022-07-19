@@ -56,7 +56,7 @@ body {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 .section {
@@ -451,6 +451,28 @@ body {
 
 /* Footer section */
 
+.footer {
+  width: 1338px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #c4c4c4;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+.container-fotter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 77px;
+}
+
 .footer-link {
   font-size: 24px;
   line-height: calc(36 / 24);
@@ -460,6 +482,11 @@ body {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--acent-txt-cl);
+}
+
+.footer-list {
+  display: flex;
+  gap: 80px;
 }
 
 .visually-hidden {
