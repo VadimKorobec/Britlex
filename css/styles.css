@@ -345,10 +345,24 @@ body {
   width: 555px;
 }
 
-.about-item {
+.eight-wrap {
   width: 93px;
+  text-align: center;
 }
 
+.eighteen-wrap {
+  width: 92px;
+}
+
+.six-wrap {
+  width: 108px;
+  text-align: center;
+}
+
+.about-img {
+  background-position: center;
+  margin-bottom: 106px;
+}
 .about-text {
   margin-bottom: 30px;
   font-size: 20px;
