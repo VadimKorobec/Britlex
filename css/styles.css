@@ -341,7 +341,12 @@ body {
 .about-list {
   display: flex;
   justify-content: space-between;
+  margin-left: 53px;
   width: 555px;
+}
+
+.about-item {
+  width: 93px;
 }
 
 .about-text {
